@@ -37,7 +37,7 @@ module.exports = {
                 ]
             },
             {
-                test: /\.html$/,
+                test: /\.html$/i,
                 use: [
                     {
                         loader: 'html-loader',
